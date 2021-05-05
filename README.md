@@ -1,32 +1,32 @@
-# CoCreate-boilerplate
+# CoCreate-resize-observer
 
-A simple boilerplate component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API. Take it for a spin in our [playground!](https://cocreate.app/docs/boilerplate)
+A simple resize-observer component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API. Take it for a spin in our [playground!](https://cocreate.app/docs/resize-observer)
 
-![GitHub file size in bytes](https://img.shields.io/github/size/CoCreate-app/CoCreate-boilerplate/dist/CoCreate-boilerplate.min.js?label=minified%20size&style=for-the-badge)
-![GitHub latest release](https://img.shields.io/github/v/release/CoCreate-app/CoCreate-boilerplate?style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/CoCreate-app/CoCreate-boilerplate?style=for-the-badge)
-![GitHub labels](https://img.shields.io/github/labels/CoCreate-app/CoCreate-boilerplate/help%20wanted?style=for-the-badge)
+![GitHub file size in bytes](https://img.shields.io/github/size/CoCreate-app/CoCreate-resize-observer/dist/CoCreate-resize-observer.min.js?label=minified%20size&style=for-the-badge)
+![GitHub latest release](https://img.shields.io/github/v/release/CoCreate-app/CoCreate-resize-observer?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/CoCreate-app/CoCreate-resize-observer?style=for-the-badge)
+![GitHub labels](https://img.shields.io/github/labels/CoCreate-app/CoCreate-resize-observer/help%20wanted?style=for-the-badge)
 
-![CoCreate-boilerplate](https://cdn.cocreate.app/docs/CoCreate-boilerplate.gif)
+![CoCreate-resize-observer](https://cdn.cocreate.app/docs/CoCreate-resize-observer.gif)
 
-## [Docs & Demo](https://cocreate.app/docs/boilerplate)
+## [Docs & Demo](https://cocreate.app/docs/resize-observer)
 
-For a complete guide and working demo refer to the [doumentation](https://cocreate.app/docs/boilerplate)
+For a complete guide and working demo refer to the [doumentation](https://cocreate.app/docs/resize-observer)
 
 ## CDN
 
 ```html
-<script src="https://cdn.cocreate.app/boilerplate/latest/CoCreate-boilerplate.min.js"></script>
+<script src="https://cdn.cocreate.app/resize-observer/latest/CoCreate-resize-observer.min.js"></script>
 ```
 
 ```html
-<script src="https://cdn.cocreate.app/boilerplate/latest/CoCreate-boilerplate.min.css"></script>
+<script src="https://cdn.cocreate.app/resize-observer/latest/CoCreate-resize-observer.min.css"></script>
 ```
 
 ## NPM
 
 ```shell
-$ npm i @cocreate/boilerplate
+$ npm i @cocreate/resize-observer
 ```
 
 # Table of Contents
@@ -42,34 +42,34 @@ $ npm i @cocreate/boilerplate
 
 # Announcements
 
-All updates to this library are documented in our [CHANGELOG](https://github.com/CoCreate-app/CoCreate-boilerplate/blob/master/CHANGELOG.md) and [releases](https://github.com/CoCreate-app/CoCreate-boilerplate/releases). You may also subscribe to email for releases and breaking changes.
+All updates to this library are documented in our [CHANGELOG](https://github.com/CoCreate-app/CoCreate-resize-observer/blob/master/CHANGELOG.md) and [releases](https://github.com/CoCreate-app/CoCreate-resize-observer/releases). You may also subscribe to email for releases and breaking changes.
 
 <a name="roadmap"></a>
 
 # Roadmap
 
-If you are interested in the future direction of this project, please take a look at our open [issues](https://github.com/CoCreate-app/CoCreate-boilerplate/issues) and [pull requests](https://github.com/CoCreate-app/CoCreate-boilerplate/pulls). We would love to hear your feedback.
+If you are interested in the future direction of this project, please take a look at our open [issues](https://github.com/CoCreate-app/CoCreate-resize-observer/issues) and [pull requests](https://github.com/CoCreate-app/CoCreate-resize-observer/pulls). We would love to hear your feedback.
 
 <a name="about"></a>
 
 # About
 
-CoCreate-boilerplate is guided and supported by the CoCreate Developer Experience Team.
+CoCreate-resize-observer is guided and supported by the CoCreate Developer Experience Team.
 
 Please Email the Developer Experience Team [here](mailto:develop@cocreate.app) in case of any queries.
 
-CoCreate-boilerplate is maintained and funded by CoCreate. The names and logos for CoCreate are trademarks of CoCreate, LLC.
+CoCreate-resize-observer is maintained and funded by CoCreate. The names and logos for CoCreate are trademarks of CoCreate, LLC.
 
 <a name="contribute"></a>
 
 # How to Contribute
 
-We encourage contribution to our libraries (you might even score some nifty swag), please see our [CONTRIBUTING](https://github.com/CoCreate-app/CoCreate-boilerplate/blob/master/CONTRIBUTING.md) guide for details.
+We encourage contribution to our libraries (you might even score some nifty swag), please see our [CONTRIBUTING](https://github.com/CoCreate-app/CoCreate-resize-observer/blob/master/CONTRIBUTING.md) guide for details.
 
-We want this library to be community-driven, and CoCreate led. We need your help to realize this goal. To help make sure we are building the right things in the right order, we ask that you create [issues](https://github.com/CoCreate-app/CoCreate-boilerplate/issues) and [pull requests](https://github.com/CoCreate-app/CoCreate-boilerplate/pulls) or merely upvote or comment on existing issues or pull requests.
+We want this library to be community-driven, and CoCreate led. We need your help to realize this goal. To help make sure we are building the right things in the right order, we ask that you create [issues](https://github.com/CoCreate-app/CoCreate-resize-observer/issues) and [pull requests](https://github.com/CoCreate-app/CoCreate-resize-observer/pulls) or merely upvote or comment on existing issues or pull requests.
 
 We appreciate your continued support, thank you!
 
 # License
 
-[The MIT License (MIT)](https://github.com/CoCreate-app/CoCreate-boilerplate/blob/master/LICENSE)
+[The MIT License (MIT)](https://github.com/CoCreate-app/CoCreate-resize-observer/blob/master/LICENSE)

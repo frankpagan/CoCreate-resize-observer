@@ -1,4 +1,4 @@
-const CoCreateBoilerplate = {
+const CoCreateResizeObserver = {
   
 	init: function(container) {
 		let mainContainer = container || document;
@@ -11,6 +11,6 @@ const CoCreateBoilerplate = {
 	}
 }
 
-CoCreateBoilerplate.init();
+CoCreateResizeObserver.init();
 
-export default CoCreateBoilerplate;
+export default CoCreateResizeObserver;

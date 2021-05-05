@@ -12,9 +12,9 @@ module.exports = {
             "document_id": "60145dc49f64ba1680b86693",
             "key": "src",
             "data":{
-                "name": "boilerplate Doc",
+                "name": "resize-observer Doc",
                 "domains": ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
-                "path": "/docs/boilerplate"
+                "path": "/docs/resize-observer"
             }
         }
     ],
