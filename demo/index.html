@@ -63,16 +63,24 @@
         <div class="resizeright"></div>
         <div class="resizetop"></div>
         <div class="resizebottom"></div>
-    </div>
+      </div>
+    
+    <script src="../dist/CoCreate-resize-observer.js"></script>
     <script>
       var config = {
             apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
             organization_Id: '5de0387b12e200ea63204d6c'
       }
+
+      CoCreateResizeObserver.init({
+        selector: ".resize",
+        target: '#target',
+        property: 'margin-left',
+        value: 'width'
+      });
     </script>
     
     <!-- CoCreate JS CDN -->
     <!-- <script src="https://cdn.cocreate.app/resize-observer/latest/CoCreate-resize-observer.min.js"></script> -->
-    <script src="../dist/CoCreate-resize-observer.js"></script>
   </body>
 </html>
