@@ -8,16 +8,34 @@ const CoCreateResizeObserver = {
 		
 		// 3 properties used in this task
 		// rElements are target
-		let rElements = mainContainer.querySelectorAll('[data-namespace], [data-room]');
-		let rProperty = '';
-		let rValue = '';
+		this.rElements = mainContainer.querySelectorAll('[data-namespace], [data-room]');
+		this.rProperty = '';
+		this.rValue = '';
 		
 	}
 }
 
-// 
-// CoCreateResizeObserver.prototype.
+// New ResizeObserver for observing
+ CoCreateResizeObserver.prototype.resizeObserver = new ResizeObserver(entries => {
+	for (let entry of entries) {
+	  if(entry.contentBoxSize) {
+		
+		// h1Elem.style.fontSize = Math.max(1.5, contentBoxSize.inlineSize / 200) + 'rem';
+		// pElem.style.fontSize = Math.max(1, contentBoxSize.inlineSize / 600) + 'rem';
+	  } else {
+		// h1Elem.style.fontSize = Math.max(1.5, entry.contentRect.width / 200) + 'rem';
+		// pElem.style.fontSize = Math.max(1, entry.contentRect.width / 600) + 'rem';
+	  }
+	}
+	
+	console.log('Size changed');
+  });
+  
+  resizeObserver.observe(divElem);
 
-CoCreateResizeObserver.init();
+//Main Execute
+CustomResizeObserver = new CoCreateResizeObserver();
+CustomResizeObserver.init();
+CustomResizeObserver.resizeObserver(CustomResizeObserver.rElements);
 
 export default CoCreateResizeObserver;
