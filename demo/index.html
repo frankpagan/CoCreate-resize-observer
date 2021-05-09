@@ -10,12 +10,60 @@
 
     <!-- CoCreate CSS CDN -->
     <!-- <link rel="stylesheet" href="https://cdn.cocreate.app/resize-observer/latest/CoCreate-resize-observer.min.css" type="text/css" /> -->
+
+    <style>
+      body {
+          height: 100vh;
+          margin: 0px;
+      }
+      
+      .resize1 {
+          top: 50px;
+          left: 50px;
+          width: 50px;
+          height: 50px;
+          padding: 0.5em;
+          position: absolute;
+          background: #dddddd;
+      }
+      
+      .resize2 {
+          top: 150px;
+          left: 150px;
+          width: 50px;
+          height: 50px;
+          padding: 0.5em;
+          position: absolute;
+          background: #dddddd;
+      }
+      
+      .resize3 {
+          top: 250px;
+          left: 250px;
+          width: 50px;
+          height: 50px;
+          padding: 0.5em;
+          position: absolute;
+          background: #dddddd;
+      }
+  </style>
   
   </head>
   
   <body>
   
-
+    <div class="resize resize2">
+        <div data-resize="left"></div>
+        <div data-resize="right"></div>
+        <div data-resize="top"></div>
+        <div data-resize="bottom"></div>
+    </div>
+    <div class="resize resize3">
+        <div class="resizeleft"></div>
+        <div class="resizeright"></div>
+        <div class="resizetop"></div>
+        <div class="resizebottom"></div>
+    </div>
     <script>
       var config = {
             apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
@@ -24,7 +72,7 @@
     </script>
     
     <!-- CoCreate JS CDN -->
-    <script src="https://cdn.cocreate.app/resize-observer/latest/CoCreate-resize-observer.min.js"></script>
-
+    <!-- <script src="https://cdn.cocreate.app/resize-observer/latest/CoCreate-resize-observer.min.js"></script> -->
+    <script src="../dist/CoCreate-resize-observer.js"></script>
   </body>
 </html>

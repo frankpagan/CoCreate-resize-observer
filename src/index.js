@@ -6,10 +6,17 @@ const CoCreateResizeObserver = {
 			return;
 		}
 		
-		let elements = mainContainer.querySelectorAll('[data-namespace], [data-room]');
+		// 3 properties used in this task
+		// rElements are target
+		let rElements = mainContainer.querySelectorAll('[data-namespace], [data-room]');
+		let rProperty = '';
+		let rValue = '';
 		
 	}
 }
+
+// 
+// CoCreateResizeObserver.prototype.
 
 CoCreateResizeObserver.init();
 
