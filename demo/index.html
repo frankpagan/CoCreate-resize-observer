@@ -11,83 +11,44 @@
     <!-- CoCreate CSS CDN -->
     <!-- <link rel="stylesheet" href="https://cdn.cocreate.app/resize-observer/latest/CoCreate-resize-observer.min.css" type="text/css" /> -->
 
+    <!-- This part is for Resize Test -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <style>
-      body {
-          height: 100vh;
-          margin: 0px;
-      }
-      
-      .resize1 {
-          top: 50px;
-          left: 50px;
-          width: 50px;
-          height: 50px;
-          padding: 0.5em;
-          position: absolute;
-          background: #dddddd;
-      }
-      
-      .resize2 {
-          top: 150px;
-          left: 150px;
-          width: 50px;
-          height: 50px;
-          padding: 0.5em;
-          position: absolute;
-          background: #dddddd;
-      }
-      
-      .resize3 {
-          top: 250px;
-          left: 250px;
-          width: 50px;
-          height: 50px;
-          padding: 0.5em;
-          position: absolute;
-          background: #dddddd;
-      }
-  </style>
-  
+    #resizable { width: 150px; height: 150px; padding: 0.5em; }
+    #resizable h3 { text-align: center; margin: 0; }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    $( function() {
+      $( "#resizable" ).resizable();
+      $( "#other" ).resizable();
+    } );
+  </script>
+  <!-- This part is for Resize Test -->
   </head>
   
   <body>
-  
-    <div class="resize resize2">
-        <div data-resize="left"></div>
-        <div data-resize="right"></div>
-        <div data-resize="top"></div>
-        <div data-resize="bottom"></div>
+
+    <!-- This part is for Resize Test -->
+    <div id="resizable" class="ui-widget-content">
+      <h3 class="ui-widget-header">Resizable</h3>
+      <h1>Hello There!</h1>
     </div>
-    <div class="resize resize3">
-        <div class="resizeleft"></div>
-        <div class="resizeright"></div>
-        <div class="resizetop"></div>
-        <div class="resizebottom"></div>
-      </div>
+    <div id="other" class="ui-widget-content"><h2>Other There!</h2></div>
+    <!-- This part is for Resize Test -->
     
-      <script src="../src/CoCreate-resize.js"></script>
-      <script src="../dist/CoCreate-resize-observer.js"></script>
+    <!-- <script src="../src/index.js"></script> -->
+    <script src="../dist/CoCreate-resize-observer.js"></script>
     <script>
-      var config = {
-            apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
-            organization_Id: '5de0387b12e200ea63204d6c'
-      }
-      CoCreateResize.init({
-          selector: ".resize",
-          dragLeft: "[data-resize='left']",
-          dragRight: "[data-resize='right']",
-          dragTop: "[data-resize='top']",
-          dragBottom: "[data-resize='bottom']",
-      });
-      // CoCreateResizeObserver.init({
-      //   selector: ".resize",
-      //   target: '#target',
-      //   property: 'margin-left',
-      //   value: 'width'
-      // });
+CoCreateResizeObserver.init('#resizable', 'h1','width','fontSize');
+CoCreateResizeObserver.init('#other', 'h2','height','fontSize');
+//  new CoCreateResizeObserver('#resizable', 'h1','width','fontSize');
+//  new 
+      // myObserver.init();
     </script>
     
     <!-- CoCreate JS CDN -->
-    <!-- <script src="https://cdn.cocreate.app/resize-observer/latest/CoCreate-resize-observer.min.js"></script> -->
+
   </body>
 </html>
