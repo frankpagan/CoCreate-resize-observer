@@ -51,12 +51,22 @@
     <!-- <script src="../src/index.js"></script> -->
     <script src="../dist/CoCreate-resize-observer.js"></script>
     <script>
-        CoCreateResizeObserver.init('#resizable', 'h1', 'width', 'fontSize');
-        CoCreateResizeObserver.init('#other', 'h2', 'height', 'fontSize');
+        CoCreateResizeObserver.init({
+            selector: '#resizable',
+            target: 'h1',
+            property: 'width',
+            value: 'fontSize'
+        });
+
+        CoCreateResizeObserver.init({
+            selector: '#other',
+            target: 'h2',
+            property: 'height',
+            value: 'fontSize'
+        });
     </script>
 
     <!-- CoCreate JS CDN -->
-
 </body>
 
 </html>
