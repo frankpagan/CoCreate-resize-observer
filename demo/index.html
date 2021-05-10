@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,41 +14,49 @@
     <!-- This part is for Resize Test -->
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <style>
-    #resizable { width: 150px; height: 150px; padding: 0.5em; }
-    #resizable h3 { text-align: center; margin: 0; }
+        #resizable {
+            width: 150px;
+            height: 150px;
+            padding: 0.5em;
+        }
+        
+        #resizable h3 {
+            text-align: center;
+            margin: 0;
+        }
     </style>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
-    $( function() {
-      $( "#resizable" ).resizable();
-      $( "#other" ).resizable();
-    } );
-  </script>
-  <!-- This part is for Resize Test -->
-  </head>
-  
-  <body>
+        $(function() {
+            $("#resizable").resizable();
+            $("#other").resizable();
+        });
+    </script>
+    <!-- This part is for Resize Test -->
+</head>
+
+<body>
 
     <!-- This part is for Resize Test -->
     <div id="resizable" class="ui-widget-content">
-      <h3 class="ui-widget-header">Resizable</h3>
-      <h1>Hello There!</h1>
+        <h3 class="ui-widget-header">Resizable</h3>
+        <h1>Hello There!</h1>
     </div>
-    <div id="other" class="ui-widget-content"><h2>Other There!</h2></div>
+    <div id="other" class="ui-widget-content">
+        <h2>Other There!</h2>
+    </div>
     <!-- This part is for Resize Test -->
-    
+
     <!-- <script src="../src/index.js"></script> -->
     <script src="../dist/CoCreate-resize-observer.js"></script>
     <script>
-CoCreateResizeObserver.init('#resizable', 'h1','width','fontSize');
-CoCreateResizeObserver.init('#other', 'h2','height','fontSize');
-//  new CoCreateResizeObserver('#resizable', 'h1','width','fontSize');
-//  new 
-      // myObserver.init();
+        CoCreateResizeObserver.init('#resizable', 'h1', 'width', 'fontSize');
+        CoCreateResizeObserver.init('#other', 'h2', 'height', 'fontSize');
     </script>
-    
+
     <!-- CoCreate JS CDN -->
 
-  </body>
+</body>
+
 </html>
