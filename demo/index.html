@@ -39,11 +39,11 @@
 <body>
 
     <!-- This part is for Resize Test -->
-    <div id="resizable" class="ui-widget-content">
+    <div id="resizable" data-resize_element="resizable" class="ui-widget-content" data-resize_value=”width”>
         <h3 class="ui-widget-header">Resizable</h3>
-        <h1>Hello There!</h1>
+        <h1 data-resize_property="fontSize">Hello There!</h1>
     </div>
-    <div id="other" class="ui-widget-content">
+    <div data-resize_target="target" id="other" class="ui-widget-content">
         <h2>Other There!</h2>
     </div>
     <!-- This part is for Resize Test -->
@@ -52,10 +52,10 @@
     <script src="../dist/CoCreate-resize-observer.js"></script>
     <script>
         CoCreateResizeObserver.init({
-            selector: '#resizable',
-            target: 'h1',
-            property: 'width',
-            value: 'fontSize'
+            selector: "[data-resize_element='resizable']",
+            target: "[data-resize_target='target']",
+            property: "width",
+            value: "width"
         });
 
         CoCreateResizeObserver.init({
