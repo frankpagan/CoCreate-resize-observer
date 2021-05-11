@@ -20,6 +20,17 @@ const CoCreateResizeObserver = {
                 continue;
             }
         }
+
+        if (this.targetWidgets.length == 0) {
+            this.targetWidgets = document.querySelectorAll('[data-resize_target]');
+        }
+
+        if (this.observerWidgets.length == 0) {
+            for (var targetWidget of this.targetWidgets) {
+                this.observerWidgets = document.querySelectorAll(targetWidget.dataset.resize_target)
+            }
+        }
+
         _this = this;
         this.observerWidgets.forEach(function(observer, i) {
             _this.observer = observer;
@@ -29,6 +40,10 @@ const CoCreateResizeObserver = {
                     _this.property = target.dataset.resize_property;
                     _this.value = target.dataset.resize_value;
                     new coCreateResizeObserver(_this);
+                } else {
+                    _this.property = handleObj['property']
+                    _this.value = handleObj['value'];
+                    new coCreateResizeObserver(_this);
                 }
             })
         });
@@ -37,6 +52,7 @@ const CoCreateResizeObserver = {
 
 function coCreateResizeObserver({ observer, target, property, value }) {
     this.observer = target.dataset.resize_target;
+    this.selector = observer;
     this.target = target;
     this.property = property ? property : "margin-left";
     this.value = value ? value : "width";
@@ -56,6 +72,16 @@ coCreateResizeObserver.prototype = {
                     __this.doChange(changeValue);
                 }
             })
+        } else {
+            let resizeObserver = new ResizeObserver((entries) => {
+                for (let entry of entries) {
+                    if (entry.contentBoxSize) {
+                        console.log('hi')
+                        this.doChange(this.selector.style[this.value]);
+                    }
+                }
+            })
+            resizeObserver.observe(this.selector);
         }
     },
 
@@ -65,4 +91,5 @@ coCreateResizeObserver.prototype = {
 
 }
 
+CoCreateResizeObserver.init();
 export default CoCreateResizeObserver;

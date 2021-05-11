@@ -14,14 +14,16 @@
     <!-- This part is for Resize Test -->
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <style>
-        #resizable {
-            width: 150px;
-            height: 150px;
-            padding: 0.5em;
+        #menu {
+            width: 300px;
+            height: 95vh;
+            padding: 0em;
+            margin: 0;
         }
         
-        #resizable h3 {
-            text-align: center;
+        #main {
+            width: 100%;
+            height: 95vh;
             margin: 0;
         }
     </style>
@@ -29,8 +31,8 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script>
         $(function() {
-            $("#resizable").resizable();
             $("#other").resizable();
+            // $("#other").resizable();
         });
     </script>
     <!-- This part is for Resize Test -->
@@ -38,24 +40,34 @@
 
 <body>
 
-    <!-- This part is for Resize Test -->
-    <div id="resizable" class="ui-widget-content" data-resize_target="#other" data-resize_property="height" data-resize_value="width">
-        <h3 class="ui-widget-header">Resizable</h3>
-        <h1>Hello There!</h1>
+    <div style="display:flex">
+        <!-- This part is for Resize Test -->
+        <div id="other" class="ui-widget-content" style="position:fixed; background:whitesmoke">
+            <h3 class="ui-widget-header">I am Resizable menu</h3>
+        </div>
+        <div id="resizable" class="ui-widget-content" data-resize_target="#other" data-resize_property="margin-left" data-resize_value="width">
+            <h3 class="ui-widget-header">I am a main container</h3>
+        </div>
+
     </div>
-    <div id="other" class="ui-widget-content" data-resize_element="#other">
-        <h2>Other There!</h2>
-    </div>
+
     <!-- This part is for Resize Test -->
 
     <!-- <script src="../src/index.js"></script> -->
     <script src="../dist/CoCreate-resize-observer.js"></script>
     <script>
+        // CoCreateResizeObserver.init({
+        //     selector: "[ data-resize_element]",
+        //     target: "[data-resize_target]",
+        //     property: "[data-resize_property]", // style property to apply value to
+        //     value: "[data-resize_value]", // targets property to get value from
+        // });
+
         CoCreateResizeObserver.init({
-            selector: "[ data-resize_element]",
-            target: "[data-resize_target]",
-            property: "[data-resize_property]", // style property to apply value to
-            value: "[data-resize_value]", // targets property to get value from
+            selector: '#other',
+            target: '#resizable',
+            property: 'margin-left',
+            value: 'width'
         });
     </script>
 
