@@ -36,7 +36,7 @@ const CoCreateResizeObserver = {
 }
 
 function coCreateResizeObserver({ observer, target, property, value }) {
-    this.observer = observer;
+    this.observer = target.dataset.resize_target;
     this.target = target;
     this.property = property ? property : "margin-left";
     this.value = value ? value : "width";
@@ -48,7 +48,7 @@ coCreateResizeObserver.prototype = {
         if (this.observer) {
             let __this = this;
             observer.init({
-                name: 'ResizeObserverInit',
+                name: 'CoCreateResizeObserver',
                 observe: ['attributes'],
                 include: __this.observer,
                 callback: function(mutation) {
