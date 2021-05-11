@@ -76,7 +76,6 @@ coCreateResizeObserver.prototype = {
             let resizeObserver = new ResizeObserver((entries) => {
                 for (let entry of entries) {
                     if (entry.contentBoxSize) {
-                        console.log('hi')
                         this.doChange(this.selector.style[this.value]);
                     }
                 }
