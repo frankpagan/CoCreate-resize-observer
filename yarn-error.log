@@ -1,4 +1,5 @@
 Arguments: 
+<<<<<<< HEAD
   /usr/bin/node /usr/share/yarn/bin/yarn.js
 
 PATH: 
@@ -6,11 +7,21 @@ PATH:
 
 Yarn version: 
   1.22.5
+=======
+  C:\Program Files\nodejs\node.exe C:\Users\apple\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D webpack-cli
+
+PATH: 
+  C:\Users\apple\AppData\Roaming\npm-cache\_npx\15148;E:\git\CoCreate-resize-observer\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;E:\git\CoCreate-resize-observer\node_modules\.bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\composer;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Go\bin;C:\Users\apple\AppData\Local\Microsoft\WindowsApps;C:\Users\apple\AppData\Local\Programs\Microsoft VS Code\bin;D:\xamp\php;C:\Users\apple\AppData\Roaming\Composer\vendor\bin;C:\Program Files\heroku\bin;C:\Users\apple\AppData\Roaming\npm;C:\Users\apple\.dotnet\tools;C:\Program Files\Go\bin;C:\Program Files\Java\jdk-14\bin;
+
+Yarn version: 
+  1.22.10
+>>>>>>> apple
 
 Node version: 
   14.16.1
 
 Platform: 
+<<<<<<< HEAD
   linux x64
 
 Trace: 
@@ -20,6 +31,17 @@ Trace:
       at Request.<anonymous> (/usr/share/yarn/lib/cli.js:67058:16)
       at Request.emit (events.js:315:20)
       at Request.module.exports.Request.onRequestResponse (/usr/share/yarn/lib/cli.js:141626:10)
+=======
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@cocreate/hosting/-/hosting-1.0.0.tgz: Request failed "404 Not Found"
+      at ResponseError.ExtendableBuiltin (C:\Users\apple\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:696:66)
+      at new ResponseError (C:\Users\apple\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:802:124)
+      at Request.<anonymous> (C:\Users\apple\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67058:16)
+      at Request.emit (events.js:315:20)
+      at Request.module.exports.Request.onRequestResponse (C:\Users\apple\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141539:10)
+>>>>>>> apple
       at ClientRequest.emit (events.js:315:20)
       at HTTPParser.parserOnIncomingClient (_http_client.js:641:27)
       at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
