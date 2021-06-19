@@ -7,7 +7,7 @@
   <!-- CoCreate Favicon -->
   <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
   <!-- CoCreate CSS CDN -->
-  <!--<link rel="stylesheet" href="https://cdn.cocreate.app/resize/latest/CoCreate-resize.min.css" type="text/css" />-->
+  <link rel="stylesheet" href="https://cdn.cocreate.app/resize/latest/CoCreate-resize.min.css" type="text/css" />
   <!-- Custom CSS -->
   <style>
     body {
@@ -49,7 +49,7 @@
 
 <body>
 
-  <div class="resize resize2" id="resize">
+  <div class="resize resize2 display:grid" id="resize">
     <div data-resize="left"></div>
     <div data-resize="right"></div>
     <div data-resize="top"></div>
@@ -65,6 +65,27 @@
   <!-- CoCreate JS test CDN -->
   <script src="../../CoCreate-resize/dist/CoCreate-resize.js"></script>
   <script src="../dist/CoCreate-resize-observer.js"></script>
+  <script>
+  //   CoCreateResizeObserver.init({
+  //       target: ".resize", // target element
+  //       callback: function(mutation) {
+  //         console.log('resize observed', mutation)
+  //       },
+  // });
+var ro = new ResizeObserver(entries => {
+  for (let entry of entries) {
+    const cr = entry.contentRect;
+    console.log('Element:', entry.target);
+    console.log('Element:', entry.contentRect);
+    console.log(`Element size: ${cr.width}px x ${cr.height}px`);
+    console.log(`Element padding: ${cr.top}px ; ${cr.left}px`);
+  }
+});
+
+// Observe one or multiple elements
+ro.observe(document.querySelector('.resize'));
+  </script>
+  
 </body>
 
 </html>
