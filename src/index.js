@@ -67,8 +67,8 @@ coCreateResizeObserver.prototype = {
             observer.init({
                 name: 'CoCreateResizeObserver',
                 observe: ['attributes'],
-                include: __this.observer,
                 callback: function(mutation) {
+                    if(!mutation.target.matches(__this.observer)) return;
                     let changeValue = window.getComputedStyle(mutation.target).getPropertyValue(__this.value);
                     __this.doChange(changeValue);
                 }
