@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/resize-observer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple resize-observer component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API.",
   "keywords": [
     "resize-observer",
@@ -20,7 +20,9 @@
     "html5-framework",
     "javascript-framework"
   ],
-  "publishConfig": { "access": "private" },
+  "publishConfig": {
+    "access": "private"
+  },
   "scripts": {
     "start": "npx webpack --config webpack.config.js",
     "build": "NODE_ENV=production npx webpack --config webpack.config.js",
