@@ -1,7 +1,4 @@
 # ignore
 node_modules
-dist/*
-!dist/*.min.js
+dist
 .npmrc
-package.json
-.log
