@@ -1,3 +1,11 @@
+## [1.0.12](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.0.11...v1.0.12) (2021-07-13)
+
+
+### Bug Fixes
+
+* add yarn lockfile to git ignore ([0adaf40](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/0adaf40cfb5181a30b18693de1286d82f45508b8))
+* remove yarn.lock ([3e79d4b](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/3e79d4b08863e4d1b046d89063d32b62f5615a5d))
+
 ## [1.0.11](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.0.10...v1.0.11) (2021-07-10)
 
 
