@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.0.14...v1.1.0) (2021-07-28)
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([ec872b0](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/ec872b0fb2e9a696e1bbf9821d1a27a73f228a14))
+
 ## [1.0.14](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.0.13...v1.0.14) (2021-07-17)
 
 
