@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.0...v1.1.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* remove data- from fetch, pass and filter ([c1c9272](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/c1c927280eccd8fca3f9496ea30bee81a3d949fd))
+
 # [1.1.0](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.0.14...v1.1.0) (2021-07-28)
 
 
