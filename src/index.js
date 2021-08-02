@@ -22,7 +22,7 @@ const CoCreateResizeObserver = {
         }
 
         if (this.targetWidgets.length == 0) {
-            this.targetWidgets = document.querySelectorAll('[data-resize_target]');
+            this.targetWidgets = document.querySelectorAll('[resize_target]');
         }
 
         if (this.observerWidgets.length == 0) {
