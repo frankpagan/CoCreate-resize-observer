@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.9...v1.1.10) (2021-09-09)
+
+
+### Bug Fixes
+
+* CoCreate.config directory, path, name and  public ([fdb56d3](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/fdb56d310b6a2407ae34468324403b5a6a6e2bcc))
+
 ## [1.1.9](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.8...v1.1.9) (2021-09-08)
 
 
