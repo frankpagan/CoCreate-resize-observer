@@ -1,3 +1,10 @@
+## [1.1.15](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.14...v1.1.15) (2021-09-12)
+
+
+### Bug Fixes
+
+* observer type typo ([4d8200a](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/4d8200ab50fa83c9f92fcef6df080f09d46fe768))
+
 ## [1.1.14](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.13...v1.1.14) (2021-09-12)
 
 
