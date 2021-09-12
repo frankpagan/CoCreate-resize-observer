@@ -2,12 +2,11 @@
 <html lang="en">
 
 <head>
-  <title>Resize | CoCreateJS</title>
+  <title>Resize Observer | CoCreateJS</title>
 
   <!-- CoCreate Favicon -->
   <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
-  <!-- CoCreate CSS CDN -->
-  <link rel="stylesheet" href="https://cdn.cocreate.app/resize/latest/CoCreate-resize.min.css" type="text/css" />
+
   <!-- Custom CSS -->
   <style>
     body {
@@ -49,17 +48,18 @@
 
 <body>
 
-  <div class="resize resize2 display:grid" id="resize">
+  <div class="resize2 display:grid" id="resize" resizable>
     <div resize="left"></div>
     <div resize="right"></div>
     <div resize="top"></div>
     <div resize="bottom"></div>
   </div>
-  <div class="resize resize3" resize_target="#resize" resize_property="height" resize_value="width">
-    <div class="resizeleft"></div>
-    <div class="resizeright"></div>
-    <div class="resizetop"></div>
-    <div class="resizebottom"></div>
+  
+  <div class="resize3" resize-target="#resize" resize-property="width" resize-value="width" resizable>
+    <div resize="left"></div>
+    <div resize="right"></div>
+    <div resize="top"></div>
+    <div resize="bottom"></div>
   </div>
 
       <script>
@@ -70,9 +70,9 @@
         }
       </script>
       
-      <!--<script src="../../../CoCreateJS/dist/CoCreate.js"></script>-->
-  <script src="../../CoCreate-resize/dist/CoCreate-resize.js"></script>
-  <script src="../dist/CoCreate-resize-observer.js"></script>
+      <script src="../../../CoCreateJS/dist/CoCreate.js"></script>
+  <!--<script src="../../CoCreate-resize/dist/CoCreate-resize.js"></script>-->
+  <!--<script src="../dist/CoCreate-resize-observer.js"></script>-->
   <script>
   //   CoCreateResizeObserver.init({
   //       target: ".resize", // target element
