@@ -1,3 +1,10 @@
+## [1.1.14](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.13...v1.1.14) (2021-09-12)
+
+
+### Bug Fixes
+
+* update sidenav to use resize and toggle ([683f805](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/683f805624c4c38977b238b349c4d3e381a381ae))
+
 ## [1.1.13](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.12...v1.1.13) (2021-09-09)
 
 
