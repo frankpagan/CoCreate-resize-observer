@@ -54,7 +54,7 @@ init();
 
 observer.init({
     name: 'CoCreateResizeObserver',
-    observe: ['sddedNodes'],
+    observe: ['addedNodes'],
     target: '[resize-target]',
     callback: function(mutation) {
         initElement(mutation.target)
