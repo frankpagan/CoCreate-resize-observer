@@ -1,3 +1,10 @@
+## [1.1.17](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.16...v1.1.17) (2021-09-14)
+
+
+### Bug Fixes
+
+* add cocreate.app to domains ([aba7630](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/aba7630444d625aedc123ca58464d5e68bd18e11))
+
 ## [1.1.16](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.15...v1.1.16) (2021-09-13)
 
 
