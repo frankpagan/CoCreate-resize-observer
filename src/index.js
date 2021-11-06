@@ -13,26 +13,13 @@ function initElements(elements) {
 
 function initElement(element) {
     let targetSelector = element.getAttribute('resize-target');
-    // let target = element.getAttribute('resize-target');
     let property = element.getAttribute('resize-property');
     let value = element.getAttribute('resize-value');
     let targets = document.querySelectorAll(targetSelector);
     
-    // init(element, selector, target, property, value);
     element.resizeObserver = {targets, property, value};
-
     initResizeObserver(element);
 }
-
-// function init(element, selector, target, property, value) {
-//     if (!element) {
-//         let elements = document.querySelectorAll(selector);
-//     }
-//     let targets = document.querySelectorAll(targetSelector);
-//     element.resizeObserver = {targets, property, value};
-
-//     initResizeObserver(element);
-// }
 
 function initResizeObserver(element) {
 	const resizeObserver = new ResizeObserver(() => 
@@ -57,9 +44,9 @@ observer.init({
     observe: ['addedNodes'],
     target: '[resize-target]',
     callback: function(mutation) {
-        initElement(mutation.target)
+        initElement(mutation.target);
     }
-})
+});
 
 observer.init({
     name: 'CoCreateResizeObserver',
@@ -68,6 +55,6 @@ observer.init({
     callback: function(mutation) {
        
     }
-})
+});
 
 export default { init };
