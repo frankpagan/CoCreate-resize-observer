@@ -1,3 +1,10 @@
+## [1.1.39](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.38...v1.1.39) (2021-11-07)
+
+
+### Bug Fixes
+
+* add init() directly above export default to fix bug in firefox ([cfee376](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/cfee376a6d2c5aafbc7bf33fe09d2631f79248a0))
+
 ## [1.1.38](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.37...v1.1.38) (2021-11-06)
 
 
