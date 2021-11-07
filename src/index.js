@@ -37,8 +37,6 @@ function updateTargets(element) {
         target.style[property] = value;
 }
 
-init();
-
 observer.init({
     name: 'CoCreateResizeObserver',
     observe: ['addedNodes'],
@@ -56,5 +54,7 @@ observer.init({
        
     }
 });
+
+init();
 
 export default { init };
