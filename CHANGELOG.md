@@ -1,3 +1,10 @@
+## [1.1.47](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.46...v1.1.47) (2021-11-20)
+
+
+### Bug Fixes
+
+* remove cdn.CoCreate.min.css ([91c88c1](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/91c88c141b40fe1f3365751f4c864f83e0a84f66))
+
 ## [1.1.46](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.45...v1.1.46) (2021-11-20)
 
 
