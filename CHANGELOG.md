@@ -1,3 +1,10 @@
+## [1.1.50](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.49...v1.1.50) (2021-11-26)
+
+
+### Bug Fixes
+
+* add nav and sidenav to docs ([aa2999e](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/aa2999eab255ae9f16834c553b14b5ecbe62db02))
+
 ## [1.1.49](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.48...v1.1.49) (2021-11-26)
 
 
