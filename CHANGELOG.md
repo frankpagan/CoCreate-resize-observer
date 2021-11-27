@@ -1,3 +1,10 @@
+## [1.1.53](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.52...v1.1.53) (2021-11-27)
+
+
+### Bug Fixes
+
+* update dependencies ([62aeb7b](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/62aeb7b46bbce741e56a0a32871e0b5137bd727b))
+
 ## [1.1.52](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.51...v1.1.52) (2021-11-27)
 
 
