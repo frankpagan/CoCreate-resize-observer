@@ -1,3 +1,10 @@
+## [1.1.56](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.55...v1.1.56) (2022-01-01)
+
+
+### Bug Fixes
+
+* get-value attribute value now supports a selector added # to all values currently in get-value attributes ([9caba07](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/9caba0730f9f385b5aff4196126821a97e681441))
+
 ## [1.1.55](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.54...v1.1.55) (2021-12-15)
 
 
