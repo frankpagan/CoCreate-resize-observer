@@ -1,3 +1,10 @@
+## [1.1.58](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.57...v1.1.58) (2022-02-03)
+
+
+### Bug Fixes
+
+* replaced show and hide class hidden with attribute hidden ([e7a93a5](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/e7a93a5ea03203ac98db062f229a078cfd0aa17e))
+
 ## [1.1.57](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.56...v1.1.57) (2022-02-01)
 
 
