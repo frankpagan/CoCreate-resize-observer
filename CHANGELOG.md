@@ -1,3 +1,10 @@
+## [1.1.63](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.62...v1.1.63) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([9109c16](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/9109c164c49c479f298a03cc37b1094b5b142150))
+
 ## [1.1.62](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.61...v1.1.62) (2022-02-24)
 
 
