@@ -1,3 +1,10 @@
+## [1.1.64](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.63...v1.1.64) (2022-05-19)
+
+
+### Bug Fixes
+
+* update document_id on link index.css ([dba9378](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/dba93782a59cbb39d56d197ea1122b1125772047))
+
 ## [1.1.63](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.62...v1.1.63) (2022-05-06)
 
 
