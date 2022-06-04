@@ -29,12 +29,16 @@ function initResizeObserver(element) {
 }
 
 function updateTargets(element) {
-    let targets = element.resizeObserver.targets;
-    let property = element.resizeObserver.property;
-    let propertyValue = element.resizeObserver.value;
-    let value = window.getComputedStyle(element).getPropertyValue(propertyValue);
-    for(let target of targets)
-        target.style[property] = value;
+    try {
+        let targets = element.resizeObserver.targets;
+        let property = element.resizeObserver.property;
+        let propertyValue = element.resizeObserver.value;
+        let value = window.getComputedStyle(element).getPropertyValue(propertyValue);
+        for(let target of targets)
+            target.style[property] = value;
+    } catch (error) {
+        console.log('resizeObserver:' + error); // Error handling
+    }
 }
 
 observer.init({
