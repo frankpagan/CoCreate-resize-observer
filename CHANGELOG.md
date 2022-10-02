@@ -1,3 +1,10 @@
+## [1.1.77](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.76...v1.1.77) (2022-10-02)
+
+
+### Bug Fixes
+
+* bump @cocreate/hosting and @cocreate/socket-client ([dd62a27](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/dd62a27cf50346c3dc24ddc567106f5bdbb07004))
+
 ## [1.1.76](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.75...v1.1.76) (2022-10-01)
 
 
