@@ -1,3 +1,10 @@
+## [1.1.81](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.80...v1.1.81) (2022-11-21)
+
+
+### Bug Fixes
+
+* replaced document_id with document._id ([bdfbed4](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/bdfbed48c14d28211df383cc2aee298580fefc28))
+
 ## [1.1.80](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.79...v1.1.80) (2022-11-21)
 
 
