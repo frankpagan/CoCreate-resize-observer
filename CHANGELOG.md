@@ -1,3 +1,11 @@
+## [1.1.83](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.82...v1.1.83) (2022-11-22)
+
+
+### Bug Fixes
+
+* apply src: {{source}} to CoCreate.config ([8b93445](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/8b9344557aff046b46370437f8616a1df5ce35f3))
+* workflow docs ([d9dd4a9](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/d9dd4a90fbd67136f46ff6c026ce506945c47169))
+
 ## [1.1.82](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.81...v1.1.82) (2022-11-21)
 
 
