@@ -1,3 +1,10 @@
+## [1.1.101](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.100...v1.1.101) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([8e49265](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/8e492652757ca869ee43b58ca41e2e6383f5325f))
+
 ## [1.1.100](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.99...v1.1.100) (2022-12-13)
 
 
