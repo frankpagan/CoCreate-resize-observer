@@ -15,7 +15,6 @@ module.exports = {
     libraryExport: "default",
     library: "CoCreateResizeObserver",
     globalObject: "this",
-    // publicPath: 'https://server.cocreate.app/CoCreateJS/dist/'
   },
 
   plugins: [
