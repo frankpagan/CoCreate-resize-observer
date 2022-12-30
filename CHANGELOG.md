@@ -1,3 +1,10 @@
+## [1.1.110](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.109...v1.1.110) (2022-12-30)
+
+
+### Bug Fixes
+
+* update config sources to use template  braces with entry on src ([d2e32fd](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/d2e32fdf2715d2f4b8a1f566de3e0044eb7f98ec))
+
 ## [1.1.109](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.108...v1.1.109) (2022-12-29)
 
 
