@@ -1,3 +1,10 @@
+## [1.1.112](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.111...v1.1.112) (2023-01-01)
+
+
+### Bug Fixes
+
+* docs sanbox overflow ([0b926be](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/0b926be52fac3e0a1371ea24ed110ecece166f99))
+
 ## [1.1.111](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.110...v1.1.111) (2022-12-31)
 
 
