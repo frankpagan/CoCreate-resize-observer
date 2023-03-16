@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.122...v1.2.0) (2023-03-16)
+
+
+### Features
+
+* replaced get-value and set-value with a super charged version of CoCreate-events ([0f43007](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/0f4300752edd24a5ad2583df9a4df60acca80714))
+
 ## [1.1.122](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.1.121...v1.1.122) (2023-02-01)
 
 
