@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.2.3...v1.2.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* renamed domains to hosts ([a8c0b3b](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/a8c0b3beaf55988fe9d4527ad2742d93b2877de9))
+
 ## [1.2.3](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.2.2...v1.2.3) (2023-03-30)
 
 
