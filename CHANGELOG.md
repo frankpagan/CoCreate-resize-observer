@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.2.6...v1.3.0) (2023-04-24)
+
+
+### Features
+
+* added pwa manifest ([cb5b767](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/cb5b76782ba7de18768cf350ec045f122c37f74f))
+
 ## [1.2.6](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.2.5...v1.2.6) (2023-04-11)
 
 
