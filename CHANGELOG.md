@@ -1,3 +1,10 @@
+## [1.3.6](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.5...v1.3.6) (2023-05-01)
+
+
+### Bug Fixes
+
+* update manifest.json to manifest.webmanifest ([6b02f46](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/6b02f4608919c0ddc1ba7483c08b17697720bf6d))
+
 ## [1.3.5](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.4...v1.3.5) (2023-05-01)
 
 
