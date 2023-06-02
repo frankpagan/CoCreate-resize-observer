@@ -1,93 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <title>Resize Observer | CoCreateJS</title>
 
-<head>
-  <title>Resize Observer | CoCreateJS</title>
+        <!-- CoCreate Favicon -->
+        <link
+            rel="icon"
+            href="https://cdn.cocreate.app/favicon.ico"
+            type="image/ico"
+            sizes="16x16" />
 
-  <!-- CoCreate Favicon -->
-  <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
+        <!-- Custom CSS -->
+        <style>
+            body {
+                height: 100vh;
+                margin: 0px;
+            }
 
-  <!-- Custom CSS -->
-  <style>
-    body {
-      height: 100vh;
-      margin: 0px;
-    }
+            .resize1 {
+                top: 50px;
+                left: 50px;
+                width: 50px;
+                height: 50px;
+                padding: 0.5em;
+                position: absolute;
+                background: #dddddd;
+            }
 
-    .resize1 {
-      top: 50px;
-      left: 50px;
-      width: 50px;
-      height: 50px;
-      padding: 0.5em;
-      position: absolute;
-      background: #dddddd;
-    }
+            .resize2 {
+                top: 150px;
+                left: 150px;
+                width: 50px;
+                height: 50px;
+                padding: 0.5em;
+                position: absolute;
+                background: #dddddd;
+            }
 
-    .resize2 {
-      top: 150px;
-      left: 150px;
-      width: 50px;
-      height: 50px;
-      padding: 0.5em;
-      position: absolute;
-      background: #dddddd;
-    }
+            .resize3 {
+                top: 250px;
+                left: 250px;
+                width: 50px;
+                height: 50px;
+                padding: 0.5em;
+                position: absolute;
+                background: #dddddd;
+            }
+        </style>
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
 
-    .resize3 {
-      top: 250px;
-      left: 250px;
-      width: 50px;
-      height: 50px;
-      padding: 0.5em;
-      position: absolute;
-      background: #dddddd;
-    }
-  </style>
-    <link rel="manifest" href="/manifest.webmanifest">
-</head>
+    <body>
+        <div class="resize2 display:grid" id="resize" resizable>
+            <div resize="left"></div>
+            <div resize="right"></div>
+            <div resize="top"></div>
+            <div resize="bottom"></div>
+        </div>
 
-<body>
+        <div
+            class="resize3"
+            resize-target="#resize"
+            resize-property="width"
+            resize-value="width"
+            resizable>
+            <div resize="left"></div>
+            <div resize="right"></div>
+            <div resize="top"></div>
+            <div resize="bottom"></div>
+        </div>
 
-  <div class="resize2 display:grid" id="resize" resizable>
-    <div resize="left"></div>
-    <div resize="right"></div>
-    <div resize="top"></div>
-    <div resize="bottom"></div>
-  </div>
-  
-  <div class="resize3" resize-target="#resize" resize-property="width" resize-value="width" resizable>
-    <div resize="left"></div>
-    <div resize="right"></div>
-    <div resize="top"></div>
-    <div resize="bottom"></div>
-  </div>
+        <script src="https://cdn.cocreate.app/latest/CoCreate.min.js"></script>
+        <!--<script src="../../CoCreate-resize/dist/CoCreate-resize.js"></script>-->
+        <!--<script src="../dist/CoCreate-resize-observer.js"></script>-->
+        <script>
+            //   CoCreateResizeObserver.init({
+            //       target: ".resize", // target element
+            //       callback: function(mutation) {
+            //         console.log('resize observed', mutation)
+            //       },
+            // });
+            var ro = new ResizeObserver((entries) => {
+                for (let entry of entries) {
+                    const cr = entry.contentRect;
+                    console.log("Element:", entry.target);
+                    console.log("Element:", entry.contentRect);
+                    console.log(`Element size: ${cr.width}px x ${cr.height}px`);
+                    console.log(`Element padding: ${cr.top}px ; ${cr.left}px`);
+                }
+            });
 
-      
-  <script src="https://cdn.cocreate.app/latest/CoCreate.min.js"></script>
-  <!--<script src="../../CoCreate-resize/dist/CoCreate-resize.js"></script>-->
-  <!--<script src="../dist/CoCreate-resize-observer.js"></script>-->
-  <script>
-  //   CoCreateResizeObserver.init({
-  //       target: ".resize", // target element
-  //       callback: function(mutation) {
-  //         console.log('resize observed', mutation)
-  //       },
-  // });
-var ro = new ResizeObserver(entries => {
-  for (let entry of entries) {
-    const cr = entry.contentRect;
-    console.log('Element:', entry.target);
-    console.log('Element:', entry.contentRect);
-    console.log(`Element size: ${cr.width}px x ${cr.height}px`);
-    console.log(`Element padding: ${cr.top}px ; ${cr.left}px`);
-  }
-});
-
-// Observe one or multiple elements
-ro.observe(document.querySelector('.resize'));
-  </script>
-  
-</body>
-
+            // Observe one or multiple elements
+            ro.observe(document.querySelector(".resize"));
+        </script>
+    </body>
 </html>
