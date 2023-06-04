@@ -1,3 +1,10 @@
+## [1.3.14](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.13...v1.3.14) (2023-06-04)
+
+
+### Bug Fixes
+
+* Refactor CoCreate.config.js to remove hard-coded credentials ([e1993f9](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/e1993f919fa50ecbca08c36b91b12bf1f393cf2e))
+
 ## [1.3.13](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.12...v1.3.13) (2023-06-04)
 
 
