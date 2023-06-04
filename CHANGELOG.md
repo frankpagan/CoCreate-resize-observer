@@ -1,3 +1,11 @@
+## [1.3.13](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.12...v1.3.13) (2023-06-04)
+
+
+### Bug Fixes
+
+* replaced secert GITHUB_TOKEN with GITHUB ([ca0b878](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/ca0b87896a92df8cd1d4a32c3d84f0848d91f211))
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([b61cecb](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/b61cecba2ece76b938d626cbe49b05e2bde28b2f))
+
 ## [1.3.12](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.11...v1.3.12) (2023-06-04)
 
 
