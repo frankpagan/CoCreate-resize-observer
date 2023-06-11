@@ -1,3 +1,10 @@
+## [1.3.19](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.18...v1.3.19) (2023-06-11)
+
+
+### Bug Fixes
+
+* @cocreate/cli moved to dependencies ([fe47c74](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/fe47c742ba191b8f5d66d0fa0337e78eeb847626))
+
 ## [1.3.18](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.17...v1.3.18) (2023-06-11)
 
 
