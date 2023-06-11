@@ -1,3 +1,11 @@
+## [1.3.23](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.22...v1.3.23) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([fa01830](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/fa0183036518fa5a1c012f480d27bbd99cd1a90d))
+* testing workflow ([63a26c7](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/63a26c7e59aa2ab41619887d45e5076fc1f2b493))
+
 ## [1.3.22](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.21...v1.3.22) (2023-06-11)
 
 
