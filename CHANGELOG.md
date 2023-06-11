@@ -1,3 +1,10 @@
+## [1.3.17](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.16...v1.3.17) (2023-06-11)
+
+
+### Bug Fixes
+
+* renamed hosts to host. the value can be a string or an array of strings ([28aeced](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/28aeced26d1c6df3526c0679863cbc8e11359708))
+
 ## [1.3.16](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.15...v1.3.16) (2023-06-10)
 
 
