@@ -1,3 +1,10 @@
+## [1.3.20](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.19...v1.3.20) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([5c61408](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/5c6140831a0354fe7da4fa55e66b1822da0ca8c9))
+
 ## [1.3.19](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.18...v1.3.19) (2023-06-11)
 
 
