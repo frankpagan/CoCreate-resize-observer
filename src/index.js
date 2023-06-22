@@ -2,30 +2,30 @@
 import observer from "@cocreate/observer";
 
 function init() {
-    let elements = document.querySelectorAll('[resize-target]');
+    let elements = document.querySelectorAll('[resize-selector]');
     initElements(elements);
 }
 
 function initElements(elements) {
-    for(let element of elements)
+    for (let element of elements)
         initElement(element);
 }
 
 function initElement(element) {
-    let targetSelector = element.getAttribute('resize-target');
+    let targetSelector = element.getAttribute('resize-selector');
     let property = element.getAttribute('resize-property');
     let value = element.getAttribute('resize-value');
     let targets = document.querySelectorAll(targetSelector);
-    
-    element.resizeObserver = {targets, property, value};
+
+    element.resizeObserver = { targets, property, value };
     initResizeObserver(element);
 }
 
 function initResizeObserver(element) {
-	const resizeObserver = new ResizeObserver(() => 
-	    updateTargets(element)
-	);
-	resizeObserver.observe(element);
+    const resizeObserver = new ResizeObserver(() =>
+        updateTargets(element)
+    );
+    resizeObserver.observe(element);
 }
 
 function updateTargets(element) {
@@ -34,7 +34,7 @@ function updateTargets(element) {
         let property = element.resizeObserver.property;
         let propertyValue = element.resizeObserver.value;
         let value = window.getComputedStyle(element).getPropertyValue(propertyValue);
-        for(let target of targets)
+        for (let target of targets)
             target.style[property] = value;
     } catch (error) {
         console.log('resizeObserver:' + error); // Error handling
@@ -44,8 +44,8 @@ function updateTargets(element) {
 observer.init({
     name: 'CoCreateResizeObserver',
     observe: ['addedNodes'],
-    target: '[resize-target]',
-    callback: function(mutation) {
+    target: '[resize-selector]',
+    callback: function (mutation) {
         initElement(mutation.target);
     }
 });
@@ -53,9 +53,9 @@ observer.init({
 observer.init({
     name: 'CoCreateResizeObserver',
     observe: ['attributes'],
-    attributeName: ['resize-target'],
-    callback: function(mutation) {
-       
+    attributeName: ['resize-selector'],
+    callback: function (mutation) {
+
     }
 });
 
