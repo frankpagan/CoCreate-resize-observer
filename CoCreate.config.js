@@ -4,8 +4,8 @@ module.exports = {
     "host": "",
     "sources": [
         {
-            "collection": "files",
-            "document": {
+            "array": "files",
+            "object": {
                 "_id": "637ca5ff50234ef1671ce32d",
                 "name": "index.html",
                 "path": "/docs/resize-observer/index.html",
