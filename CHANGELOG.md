@@ -1,3 +1,17 @@
+# [1.4.0](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.28...v1.4.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([6a5fa5d](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/6a5fa5da55e7ee946ef0ae52e28f38d104afe04a))
+* replace -target -selector ([9473f77](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/9473f773c6c49a8e8b1d2aecd2e0d1eb1752d519))
+* webpack.config and package.json make use of mode=production instead of process.env ([7e0e97e](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/7e0e97eb7224d9e1809a6656c3a3283f26bad6cb))
+
+
+### Features
+
+* name attribute and variable renamed to key ([f718916](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/f7189160ae3c64ebd4ccfa867dbd9c7d690c34b0))
+
 ## [1.3.28](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.3.27...v1.3.28) (2023-06-14)
 
 
