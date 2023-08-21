@@ -1,3 +1,12 @@
+## [1.5.1](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.5.0...v1.5.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* /dist/CoCreate.js updated to https://CoCreate.app/dist/CoCreate.js ([591a1df](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/591a1df0347c3a1aa66c0a3fb2c119e290ce1f86))
+* replace cdn with /dist ([d411394](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/d411394053ebce88c7fd337824dab1690387bd84))
+* update file uploader ([14b79ef](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/14b79efbe16d5e5d92c75568eb65dc86f8d188cc))
+
 # [1.5.0](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.4.0...v1.5.0) (2023-08-17)
 
 
