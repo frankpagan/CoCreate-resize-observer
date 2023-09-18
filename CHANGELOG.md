@@ -1,3 +1,11 @@
+## [1.6.2](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.6.1...v1.6.2) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([6e684ba](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/6e684ba6b20061b32e8e06aae2cca0f2cadd1c6c))
+* Update CoCreate depndencies to latest versions ([64f3ae0](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/64f3ae0b2de54d46952bf77b1dea9993d7f8f42d))
+
 ## [1.6.1](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.6.0...v1.6.1) (2023-08-21)
 
 
