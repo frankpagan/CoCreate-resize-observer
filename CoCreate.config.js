@@ -8,17 +8,16 @@ module.exports = {
             "object": {
                 "_id": "637ca5ff50234ef1671ce32d",
                 "name": "index.html",
-                "path": "/docs/resize-observer/index.html",
+                "path": "/docs/resize-observer",
+                "pathname": "/docs/resize-observer/index.html",
                 "src": "{{./docs/index.html}}",
                 "host": [
                     "*",
                     "general.cocreate.app"
                 ],
-                "directory": "/docs/resize-observer",
-                "parentDirectory": "{{parentDirectory}}",
+                "directory": "resize-observer",
                 "content-type": "{{content-type}}",
-                "public": "true",
-                "website_id": "644d4bff8036fb9d1d1fd69c"
+                "public": "true"
             }
         }
     ]
