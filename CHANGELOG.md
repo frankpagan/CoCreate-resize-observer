@@ -1,3 +1,11 @@
+## [1.6.7](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.6.6...v1.6.7) (2023-11-03)
+
+
+### Bug Fixes
+
+* favicon.ico path ([818adcf](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/818adcf7238824c8c32d7057eec1876b5b474621))
+* update dependencies to the lates versions ([66494aa](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/66494aabd8dce72818091cf45bc59a196fda632c))
+
 ## [1.6.6](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.6.5...v1.6.6) (2023-10-25)
 
 
