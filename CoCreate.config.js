@@ -12,8 +12,7 @@ module.exports = {
                 "pathname": "/docs/resize-observer/index.html",
                 "src": "{{./docs/index.html}}",
                 "host": [
-                    "*",
-                    "general.cocreate.app"
+                    "*"
                 ],
                 "directory": "resize-observer",
                 "content-type": "{{content-type}}",
