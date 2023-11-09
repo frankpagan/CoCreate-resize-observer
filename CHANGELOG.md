@@ -1,3 +1,11 @@
+## [1.6.8](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.6.7...v1.6.8) (2023-11-09)
+
+
+### Bug Fixes
+
+* meta name typo ([dbea7c1](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/dbea7c199948947d67f48d2fdc70c878adebefc9))
+* update host ([dc64e55](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/dc64e5505766572827cf06df32e987fe86c53f6c))
+
 ## [1.6.7](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.6.6...v1.6.7) (2023-11-03)
 
 
