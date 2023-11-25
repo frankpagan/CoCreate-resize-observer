@@ -1,3 +1,15 @@
+# [1.8.0](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.7.0...v1.8.0) (2023-11-25)
+
+
+### Bug Fixes
+
+* update nav, edit button and css path ([41514dd](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/41514dd713eb445ac987d2f5822bd11a02d46b0f))
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([2d0bfae](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/2d0bfaea0f9f51971ccf54bb0f188fae9a334da6))
+
 # [1.7.0](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.6.9...v1.7.0) (2023-11-19)
 
 
