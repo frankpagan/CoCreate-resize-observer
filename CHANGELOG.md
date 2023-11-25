@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.8.0...v1.9.0) (2023-11-25)
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([14af0fb](https://github.com/CoCreate-app/CoCreate-resize-observer/commit/14af0fb4e03e8f6abbf2a8d3e010d43613a271b9))
+
 # [1.8.0](https://github.com/CoCreate-app/CoCreate-resize-observer/compare/v1.7.0...v1.8.0) (2023-11-25)
 
 
